@@ -1,13 +1,9 @@
    const Diabetes = [
-    {
-      "policy_term": 1,
-      "category": "A",
-      "policy_types": [
-        {
-          "type": "Individual",
-          "age_bands": [
             {
-              "age": "18-30",
+              "policy_term": 1,
+              "category": "A",
+              "age_band": "18-30",
+              "plan_type": "Individual",
               "values": {
                 "3,00,000": 12231,
                 "4,00,000": 13454,
@@ -16,7 +12,10 @@
               }
             },
             {
-              "age": "31-35",
+              "policy_term": 1,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "31-35",
               "values": {
                 "3,00,000": 13799,
                 "4,00,000": 15179,
@@ -25,7 +24,10 @@
               }
             },
             {
-              "age": "36-40",
+              "policy_term": 1,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "36-40",
               "values": {
                 "3,00,000": 15514,
                 "4,00,000": 17066,
@@ -34,7 +36,10 @@
               }
             },
             {
-              "age": "41-45",
+              "policy_term": 1,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "41-45",
               "values": {
                 "3,00,000": 17500,
                 "4,00,000": 19250,
@@ -43,7 +48,10 @@
               }
             },
             {
-              "age": "46-50",
+              "policy_term": 1,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "46-50",
               "values": {
                 "3,00,000": 19878,
                 "4,00,000": 21866,
@@ -52,7 +60,10 @@
               }
             },
             {
-              "age": "51-55",
+              "policy_term": 1,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "51-55",
               "values": {
                 "3,00,000": 22772,
                 "4,00,000": 25049,
@@ -61,7 +72,10 @@
               }
             },
             {
-              "age": "56-60",
+              "policy_term": 1,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "56-60",
               "values": {
                 "3,00,000": 26304,
                 "4,00,000": 28934,
@@ -70,7 +84,10 @@
               }
             },
             {
-              "age": "61-65",
+              "policy_term": 1,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "61-65",
               "values": {
                 "3,00,000": 30597,
                 "4,00,000": 33657,
@@ -79,7 +96,10 @@
               }
             },
             {
-              "age": "66-70",
+              "policy_term": 1,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "66-70",
               "values": {
                 "3,00,000": 35773,
                 "4,00,000": 43275,
@@ -88,7 +108,10 @@
               }
             },
             {
-              "age": "71-75",
+              "policy_term": 1,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "71-75",
               "values": {
                 "3,00,000": 44500,
                 "4,00,000": 55625,
@@ -97,7 +120,10 @@
               }
             },
             {
-              "age": "76-80",
+              "policy_term": 1,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "76-80",
               "values": {
                 "3,00,000": 55585,
                 "4,00,000": 69485,
@@ -106,21 +132,22 @@
               }
             },
             {
-              "age": "Above 80",
+              "policy_term": 1,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "Above 80",
               "values": {
                 "3,00,000": 67930,
                 "4,00,000": 84910,
                 "5,00,000": 97650,
                 "10,00,000": 126945
               }
-            }
-          ]
-        },
-        {
-          "type": "Floater",
-          "age_bands": [
+            },
             {
-              "age": "18-30",
+              "policy_term": 1,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "18-30",
               "values": {
                 "3,00,000": 17123,
                 "4,00,000": 18836,
@@ -129,7 +156,10 @@
               }
             },
             {
-              "age": "31-35",
+              "policy_term": 1,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "31-35",
               "values": {
                 "3,00,000": 19318,
                 "4,00,000": 21250,
@@ -138,7 +168,10 @@
               }
             },
             {
-              "age": "36-40",
+              "policy_term": 1,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "36-40",
               "values": {
                 "3,00,000": 21720,
                 "4,00,000": 23892,
@@ -147,7 +180,10 @@
               }
             },
             {
-              "age": "41-45",
+              "policy_term": 1,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "41-45",
               "values": {
                 "3,00,000": 24499,
                 "4,00,000": 26949,
@@ -156,7 +192,10 @@
               }
             },
             {
-              "age": "46-50",
+              "policy_term": 1,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "46-50",
               "values": {
                 "3,00,000": 27829,
                 "4,00,000": 30612,
@@ -165,7 +204,10 @@
               }
             },
             {
-              "age": "51-55",
+              "policy_term": 1,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "51-55",
               "values": {
                 "3,00,000": 31881,
                 "4,00,000": 35069,
@@ -174,7 +216,10 @@
               }
             },
             {
-              "age": "56-60",
+              "policy_term": 1,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "56-60",
               "values": {
                 "3,00,000": 36826,
                 "4,00,000": 40508,
@@ -183,7 +228,10 @@
               }
             },
             {
-              "age": "61-65",
+              "policy_term": 1,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "61-65",
               "values": {
                 "3,00,000": 42836,
                 "4,00,000": 47119,
@@ -192,7 +240,10 @@
               }
             },
             {
-              "age": "66-70",
+              "policy_term": 1,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "66-70",
               "values": {
                 "3,00,000": 50083,
                 "4,00,000": 60200,
@@ -201,7 +252,10 @@
               }
             },
             {
-              "age": "71-75",
+              "policy_term": 1,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "71-75",
               "values": {
                 "3,00,000": 61840,
                 "4,00,000": 77300,
@@ -210,7 +264,10 @@
               }
             },
             {
-              "age": "76-80",
+              "policy_term": 1,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "76-80",
               "values": {
                 "3,00,000": 77205,
                 "4,00,000": 96510,
@@ -219,27 +276,22 @@
               }
             },
             {
-              "age": "Above 80",
+              "policy_term": 1,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "Above 80",
               "values": {
                 "3,00,000": 94300,
                 "4,00,000": 117880,
                 "5,00,000": 135560,
                 "10,00,000": 176230
               }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "policy_term": 1,
-      "category": "B",
-      "policy_types": [
-        {
-          "type": "Individual",
-          "age_bands": [
+            },
             {
-              "age": "18-30",
+              "policy_term": 1,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "18-30",
               "values": {
                 "3,00,000": 13590,
                 "4,00,000": 14949,
@@ -248,7 +300,10 @@
               }
             },
             {
-              "age": "31-35",
+              "policy_term": 1,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "31-35",
               "values": {
                 "3,00,000": 15332,
                 "4,00,000": 16865,
@@ -257,7 +312,10 @@
               }
             },
             {
-              "age": "36-40",
+              "policy_term": 1,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "36-40",
               "values": {
                 "3,00,000": 17238,
                 "4,00,000": 18962,
@@ -266,7 +324,10 @@
               }
             },
             {
-              "age": "41-45",
+              "policy_term": 1,
+              "category": "B",
+              "age_band": "41-45",
+              "plan_type": "Individual",
               "values": {
                 "3,00,000": 19444,
                 "4,00,000": 21388,
@@ -275,7 +336,10 @@
               }
             },
             {
-              "age": "46-50",
+              "policy_term": 1,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "46-50",
               "values": {
                 "3,00,000": 22087,
                 "4,00,000": 24295,
@@ -284,7 +348,10 @@
               }
             },
             {
-              "age": "51-55",
+              "policy_term": 1,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "51-55",
               "values": {
                 "3,00,000": 25302,
                 "4,00,000": 27832,
@@ -293,7 +360,10 @@
               }
             },
             {
-              "age": "56-60",
+              "policy_term": 1,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "56-60",
               "values": {
                 "3,00,000": 29227,
                 "4,00,000": 32149,
@@ -302,7 +372,10 @@
               }
             },
             {
-              "age": "61-65",
+              "policy_term": 1,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "61-65",
               "values": {
                 "3,00,000": 35995,
                 "4,00,000": 44995,
@@ -311,7 +384,10 @@
               }
             },
             {
-              "age": "66-70",
+              "policy_term": 1,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "66-70",
               "values": {
                 "3,00,000": 47565,
                 "4,00,000": 59455,
@@ -320,7 +396,10 @@
               }
             },
             {
-              "age": "71-75",
+              "policy_term": 1,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "71-75",
               "values": {
                 "3,00,000": 57850,
                 "4,00,000": 72310,
@@ -329,7 +408,10 @@
               }
             },
             {
-              "age": "76-80",
+              "policy_term": 1,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "76-80",
               "values": {
                 "3,00,000": 74560,
                 "4,00,000": 93200,
@@ -338,21 +420,22 @@
               }
             },
             {
-              "age": "Above 80",
+              "policy_term": 1,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "Above 80",
               "values": {
                 "3,00,000": 89985,
                 "4,00,000": 112480,
                 "5,00,000": 129350,
                 "10,00,000": 168160
               }
-            }
-          ]
-        },
-        {
-          "type": "Floater",
-          "age_bands": [
+            },
             {
-              "age": "18-30",
+              "policy_term": 1,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "18-30",
               "values": {
                 "3,00,000": 19026,
                 "4,00,000": 20929,
@@ -361,7 +444,10 @@
               }
             },
             {
-              "age": "31-35",
+              "policy_term": 1,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "31-35",
               "values": {
                 "3,00,000": 21465,
                 "4,00,000": 23611,
@@ -370,7 +456,10 @@
               }
             },
             {
-              "age": "36-40",
+              "policy_term": 1,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "36-40",
               "values": {
                 "3,00,000": 24133,
                 "4,00,000": 26546,
@@ -379,7 +468,10 @@
               }
             },
             {
-              "age": "41-45",
+              "policy_term": 1,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "41-45",
               "values": {
                 "3,00,000": 27222,
                 "4,00,000": 29944,
@@ -388,7 +480,10 @@
               }
             },
             {
-              "age": "46-50",
+              "policy_term": 1,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "46-50",
               "values": {
                 "3,00,000": 30921,
                 "4,00,000": 34013,
@@ -397,7 +492,10 @@
               }
             },
             {
-              "age": "51-55",
+              "policy_term": 1,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "51-55",
               "values": {
                 "3,00,000": 35423,
                 "4,00,000": 38965,
@@ -406,7 +504,10 @@
               }
             },
             {
-              "age": "56-60",
+              "policy_term": 1,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "56-60",
               "values": {
                 "3,00,000": 40917,
                 "4,00,000": 45009,
@@ -415,7 +516,10 @@
               }
             },
             {
-              "age": "61-65",
+              "policy_term": 1,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "61-65",
               "values": {
                 "3,00,000": 49910,
                 "4,00,000": 62390,
@@ -424,7 +528,10 @@
               }
             },
             {
-              "age": "66-70",
+              "policy_term": 1,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "66-70",
               "values": {
                 "3,00,000": 65950,
                 "4,00,000": 82435,
@@ -433,7 +540,10 @@
               }
             },
             {
-              "age": "71-75",
+              "policy_term": 1,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "71-75",
               "values": {
                 "3,00,000": 80210,
                 "4,00,000": 100260,
@@ -442,7 +552,10 @@
               }
             },
             {
-              "age": "76-80",
+              "policy_term": 1,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "76-80",
               "values": {
                 "3,00,000": 103380,
                 "4,00,000": 129225,
@@ -451,27 +564,22 @@
               }
             },
             {
-              "age": "Above 80",
+              "policy_term": 1,
+              "category": "B",  
+              "plan_type": "Floater",
+              "age_band": "Above 80",
               "values": {
                 "3,00,000": 124765,
                 "4,00,000": 155960,
                 "5,00,000": 179355,
                 "10,00,000": 233165
               }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "policy_term": 2,
-      "category": "A",
-      "policy_types": [
-        {
-          "type": "Individual Policy",
-          "age_bands": [
+            },
             {
-              "age": "18-29",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "18-29",
               "values": {
                 "3,00,000": 23239,
                 "4,00,000": 25563,
@@ -480,7 +588,10 @@
               }
             },
             {
-              "age": "30",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "30",
               "values": {
                 "3,00,000": 24650,
                 "4,00,000": 27115,
@@ -489,7 +600,10 @@
               }
             },
             {
-              "age": "31-34",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "31-34",
               "values": {
                 "3,00,000": 26218,
                 "4,00,000": 28839,
@@ -498,7 +612,10 @@
               }
             },
             {
-              "age": "35",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "35",
               "values": {
                 "3,00,000": 27761,
                 "4,00,000": 30538,
@@ -507,7 +624,10 @@
               }
             },
             {
-              "age": "36-39",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "36-39",
               "values": {
                 "3,00,000": 29477,
                 "4,00,000": 32424,
@@ -516,7 +636,10 @@
               }
             },
             {
-              "age": "40",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "40",
               "values": {
                 "3,00,000": 31264,
                 "4,00,000": 34390,
@@ -525,7 +648,10 @@
               }
             },
             {
-              "age": "41-44",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "41-44",
               "values": {
                 "3,00,000": 33249,
                 "4,00,000": 36574,
@@ -534,7 +660,10 @@
               }
             },
             {
-              "age": "45",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "45",
               "values": {
                 "3,00,000": 35390,
                 "4,00,000": 38929,
@@ -543,7 +672,10 @@
               }
             },
             {
-              "age": "46-49",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "46-49",
               "values": {
                 "3,00,000": 37768,
                 "4,00,000": 41545,
@@ -552,7 +684,10 @@
               }
             },
             {
-              "age": "50",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "50",
               "values": {
                 "3,00,000": 40373,
                 "4,00,000": 44410,
@@ -561,7 +696,10 @@
               }
             },
             {
-              "age": "51-54",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "51-54",
               "values": {
                 "3,00,000": 43267,
                 "4,00,000": 47593,
@@ -570,7 +708,10 @@
               }
             },
             {
-              "age": "55",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "55",
               "values": {
                 "3,00,000": 46445,
                 "4,00,000": 51090,
@@ -579,7 +720,10 @@
               }
             },
             {
-              "age": "56-59",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "56-59",
               "values": {
                 "3,00,000": 49978,
                 "4,00,000": 54975,
@@ -588,7 +732,10 @@
               }
             },
             {
-              "age": "60",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "60",
               "values": {
                 "3,00,000": 53841,
                 "4,00,000": 59225,
@@ -597,7 +744,10 @@
               }
             },
             {
-              "age": "61-64",
+              "policy_term": 2,
+              "category": "A",
+          "plan_type": "Individual",
+              "age_band": "61-64",
               "values": {
                 "3,00,000": 58134,
                 "4,00,000": 63947,
@@ -606,7 +756,10 @@
               }
             },
             {
-              "age": "65",
+              "policy_term": 2,
+              "category": "A",
+          "plan_type": "Individual",
+              "age_band": "65",
               "values": {
                 "3,00,000": 62793,
                 "4,00,000": 72604,
@@ -615,7 +768,10 @@
               }
             },
             {
-              "age": "66-69",
+              "policy_term": 2,
+              "category": "A",
+          "plan_type": "Individual",
+              "age_band": "66-69",
               "values": {
                 "3,00,000": 67969,
                 "4,00,000": 82223,
@@ -624,7 +780,10 @@
               }
             },
             {
-              "age": "70",
+              "policy_term": 2,
+              "category": "A",
+          "plan_type": "Individual",
+              "age_band": "70",
               "values": {
                 "3,00,000": 75823,
                 "4,00,000": 93338,
@@ -633,7 +792,10 @@
               }
             },
             {
-              "age": "71-74",
+              "policy_term": 2,
+              "category": "A",
+          "plan_type": "Individual",
+              "age_band": "71-74",
               "values": {
                 "3,00,000": 84550,
                 "4,00,000": 105688,
@@ -642,7 +804,10 @@
               }
             },
             {
-              "age": "75",
+              "policy_term": 2,
+              "category": "A",
+          "plan_type": "Individual",
+              "age_band": "75",
               "values": {
                 "3,00,000": 94527,
                 "4,00,000": 118162,
@@ -651,7 +816,10 @@
               }
             },
             {
-              "age": "76-79",
+              "policy_term": 2,
+              "category": "A",
+          "plan_type": "Individual",
+              "age_band": "76-79",
               "values": {
                 "3,00,000": 105612,
                 "4,00,000": 132022,
@@ -660,7 +828,10 @@
               }
             },
             {
-              "age": "80",
+              "policy_term": 2,
+              "category": "A",
+          "plan_type": "Individual",
+              "age_band": "80",
               "values": {
                 "3,00,000": 116722,
                 "4,00,000": 145904,
@@ -669,21 +840,22 @@
               }
             },
             {
-              "age": "Above80",
+              "policy_term": 2,
+              "category": "A",
+          "plan_type": "Individual",
+              "age_band": "Above80",
               "values": {
                 "3,00,000": 129067,
                 "4,00,000": 161329,
                 "5,00,000": 185535,
                 "10,00,000": 241196
               }
-            }
-          ]
-        },
-        {
-          "type": "Floater",
-          "age_bands": [
+            },
             {
-              "age": "18-29",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "18-29",
               "values": {
                 "3,00,000": 32534,
                 "4,00,000": 35788,
@@ -692,7 +864,10 @@
               }
             },
             {
-              "age": "30",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "30",
               "values": {
                 "3,00,000": 34510,
                 "4,00,000": 37961,
@@ -701,7 +876,10 @@
               }
             },
             {
-              "age": "31-34",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "31-34",
               "values": {
                 "3,00,000": 36705,
                 "4,00,000": 40375,
@@ -710,7 +888,10 @@
               }
             },
             {
-              "age": "35",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "35",
               "values": {
                 "3,00,000": 38866,
                 "4,00,000": 42753,
@@ -719,7 +900,10 @@
               }
             },
             {
-              "age": "36-39",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "36-39",
               "values": {
                 "3,00,000": 41267,
                 "4,00,000": 45394,
@@ -728,7 +912,10 @@
               }
             },
             {
-              "age": "40",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "40",
               "values": {
                 "3,00,000": 43769,
                 "4,00,000": 48146,
@@ -737,7 +924,10 @@
               }
             },
             {
-              "age": "41-44",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "41-44",
               "values": {
                 "3,00,000": 46549,
                 "4,00,000": 51204,
@@ -746,7 +936,10 @@
               }
             },
             {
-              "age": "45",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "45",
               "values": {
                 "3,00,000": 49546,
                 "4,00,000": 54500,
@@ -755,7 +948,10 @@
               }
             },
             {
-              "age": "46-49",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "46-49",
               "values": {
                 "3,00,000": 52875,
                 "4,00,000": 58163,
@@ -764,7 +960,10 @@
               }
             },
             {
-              "age": "50",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "50",
               "values": {
                 "3,00,000": 56522,
                 "4,00,000": 62174,
@@ -773,7 +972,10 @@
               }
             },
             {
-              "age": "51-54",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "51-54",
               "values": {
                 "3,00,000": 60573,
                 "4,00,000": 66631,
@@ -782,7 +984,10 @@
               }
             },
             {
-              "age": "55",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "55",
               "values": {
                 "3,00,000": 65024,
                 "4,00,000": 71526,
@@ -791,7 +996,10 @@
               }
             },
             {
-              "age": "56-59",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "56-59",
               "values": {
                 "3,00,000": 69969,
                 "4,00,000": 76965,
@@ -800,7 +1008,10 @@
               }
             },
             {
-              "age": "60",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "60",
               "values": {
                 "3,00,000": 75378,
                 "4,00,000": 82915,
@@ -809,7 +1020,10 @@
               }
             },
             {
-              "age": "61-64",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "61-64",
               "values": {
                 "3,00,000": 81388,
                 "4,00,000": 89526,
@@ -818,7 +1032,10 @@
               }
             },
             {
-              "age": "65",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "65",
               "values": {
                 "3,00,000": 87910,
                 "4,00,000": 101299,
@@ -827,7 +1044,10 @@
               }
             },
             {
-              "age": "66-69",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "66-69",
               "values": {
                 "3,00,000": 95157,
                 "4,00,000": 114380,
@@ -836,7 +1056,10 @@
               }
             },
             {
-              "age": "70",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "70",
               "values": {
                 "3,00,000": 105739,
                 "4,00,000": 129770,
@@ -845,7 +1068,10 @@
               }
             },
             {
-              "age": "71-74",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "71-74",
               "values": {
                 "3,00,000": 117495,
                 "4,00,000": 146870,
@@ -854,7 +1080,10 @@
               }
             },
             {
-              "age": "75",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "75",
               "values": {
                 "3,00,000": 131325,
                 "4,00,000": 164159,
@@ -863,7 +1092,10 @@
               }
             },
             {
-              "age": "76-79",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "76-79",
               "values": {
                 "3,00,000": 146690,
                 "4,00,000": 183369,
@@ -872,7 +1104,10 @@
               }
             },
             {
-              "age": "80",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "80",
               "values": {
                 "3,00,000": 162075,
                 "4,00,000": 202602,
@@ -881,27 +1116,22 @@
               }
             },
             {
-              "age": "Above80",
+              "policy_term": 2,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "Above80",
               "values": {
                 "3,00,000": 179170,
                 "4,00,000": 223972,
                 "5,00,000": 257564,
                 "10,00,000": 334837
               }
-            }
-          ]
-        }
-      ]
-    },    
-    {
-      "policy_term": 2,
-      "category": "B",
-      "policy_types": [
-        {
-          "type": "Individual",
-          "age_bands": [
+            },
             {
-              "age": "18-29",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "18-29",
               "values": {
                 "3,00,000": 25821,
                 "4,00,000": 28403,
@@ -910,7 +1140,10 @@
               }
             },
             {
-              "age": "30",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "30",
               "values": {
                 "3,00,000": 27389,
                 "4,00,000": 30128,
@@ -919,7 +1152,10 @@
               }
             },
             {
-              "age": "31-34",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "31-34",
               "values": {
                 "3,00,000": 29131,
                 "4,00,000": 32044,
@@ -928,7 +1164,10 @@
               }
             },
             {
-              "age": "35",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "35",
               "values": {
                 "3,00,000": 30846,
                 "4,00,000": 33931,
@@ -937,7 +1176,10 @@
               }
             },
             {
-              "age": "36-39",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "36-39",
               "values": {
                 "3,00,000": 32752,
                 "4,00,000": 36027,
@@ -946,7 +1188,10 @@
               }
             },
             {
-              "age": "40",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "40",
               "values": {
                 "3,00,000": 34737,
                 "4,00,000": 38211,
@@ -955,7 +1200,10 @@
               }
             },
             {
-              "age": "41-44",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "41-44",
               "values": {
                 "3,00,000": 36944,
                 "4,00,000": 40638,
@@ -964,7 +1212,10 @@
               }
             },
             {
-              "age": "45",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "45",
               "values": {
                 "3,00,000": 39322,
                 "4,00,000": 43254,
@@ -973,7 +1224,10 @@
               }
             },
             {
-              "age": "46-49",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "46-49",
               "values": {
                 "3,00,000": 41965,
                 "4,00,000": 46161,
@@ -982,7 +1236,10 @@
               }
             },
             {
-              "age": "50",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "50",
               "values": {
                 "3,00,000": 44859,
                 "4,00,000": 49344,
@@ -991,7 +1248,10 @@
               }
             },
             {
-              "age": "51-54",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "51-54",
               "values": {
                 "3,00,000": 48074,
                 "4,00,000": 52881,
@@ -1000,7 +1260,10 @@
               }
             },
             {
-              "age": "55",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "55",
               "values": {
                 "3,00,000": 51606,
                 "4,00,000": 56767,
@@ -1009,7 +1272,10 @@
               }
             },
             {
-              "age": "56-59",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "56-59",
               "values": {
                 "3,00,000": 55531,
                 "4,00,000": 61084,
@@ -1018,7 +1284,10 @@
               }
             },
             {
-              "age": "60",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "60",
               "values": {
                 "3,00,000": 61622,
                 "4,00,000": 72645,
@@ -1027,7 +1296,10 @@
               }
             },
             {
-              "age": "61-64",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "61-64",
               "values": {
                 "3,00,000": 68391,
                 "4,00,000": 85491,
@@ -1036,7 +1308,10 @@
               }
             },
             {
-              "age": "65",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "65",
               "values": {
                 "3,00,000": 78804,
                 "4,00,000": 98505,
@@ -1045,7 +1320,10 @@
               }
             },
             {
-              "age": "65-69",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "65-69",
               "values": {
                 "3,00,000": 90374,
                 "4,00,000": 112965,
@@ -1054,7 +1332,10 @@
               }
             },
             {
-              "age": "70",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "70",
               "values": {
                 "3,00,000": 99630,
                 "4,00,000": 124534,
@@ -1063,7 +1344,10 @@
               }
             },
             {
-              "age": "71-74",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "71-74",
               "values": {
                 "3,00,000": 109915,
                 "4,00,000": 137389,
@@ -1072,7 +1356,10 @@
               }
             },
             {
-              "age": "75",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "75",
               "values": {
                 "3,00,000": 124954,
                 "4,00,000": 156190,
@@ -1081,7 +1368,10 @@
               }
             },
             {
-              "age": "76-79",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "76-79",
               "values": {
                 "3,00,000": 141664,
                 "4,00,000": 177080,
@@ -1090,7 +1380,10 @@
               }
             },
             {
-              "age": "80",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "80",
               "values": {
                 "3,00,000": 155547,
                 "4,00,000": 194432,
@@ -1099,21 +1392,22 @@
               }
             },
             {
-              "age": "Above80",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "Above80",
               "values": {
                 "3,00,000": 170972,
                 "4,00,000": 213712,
                 "5,00,000": 245765,
                 "10,00,000": 319504
               }
-            }
-          ]
-        },
-        {
-          "type": "Floater",
-          "age_bands": [
+            },
             {
-              "age": "18-29",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "18-29",
               "values": {
                 "3,00,000": 36149,
                 "4,00,000": 39764,
@@ -1122,7 +1416,10 @@
               }
             },
             {
-              "age": "30",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "30",
               "values": {
                 "3,00,000": 38344,
                 "4,00,000": 42179,
@@ -1131,7 +1428,10 @@
               }
             },
             {
-              "age": "31-34",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "31-34",
               "values": {
                 "3,00,000": 40783,
                 "4,00,000": 44861,
@@ -1140,7 +1440,10 @@
               }
             },
             {
-              "age": "35",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "35",
               "values": {
                 "3,00,000": 43184,
                 "4,00,000": 47503,
@@ -1149,7 +1452,10 @@
               }
             },
             {
-              "age": "36-39",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "36-39",
               "values": {
                 "3,00,000": 45853,
                 "4,00,000": 50438,
@@ -1158,7 +1464,10 @@
               }
             },
             {
-              "age": "40",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "40",
               "values": {
                 "3,00,000": 48646,
                 "4,00,000": 53530,
@@ -1167,7 +1476,10 @@
               }
             },
             {
-              "age": "41-44",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "41-44",
               "values": {
                 "3,00,000": 51737,
                 "4,00,000": 56967,
@@ -1176,7 +1488,10 @@
               }
             },
             {
-              "age": "45",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "45",
               "values": {
                 "3,00,000": 55096,
                 "4,00,000": 60674,
@@ -1185,7 +1500,10 @@
               }
             },
             {
-              "age": "46-49",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "46-49",
               "values": {
                 "3,00,000": 58842,
                 "4,00,000": 64788,
@@ -1194,7 +1512,10 @@
               }
             },
             {
-              "age": "50",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "50",
               "values": {
                 "3,00,000": 62956,
                 "4,00,000": 69304,
@@ -1203,7 +1524,10 @@
               }
             },
             {
-              "age": "51-54",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "51-54",
               "values": {
                 "3,00,000": 67470,
                 "4,00,000": 74257,
@@ -1212,7 +1536,10 @@
               }
             },
             {
-              "age": "55",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "55",
               "values": {
                 "3,00,000": 72411,
                 "4,00,000": 79669,
@@ -1221,7 +1548,10 @@
               }
             },
             {
-              "age": "56-59",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "56-59",
               "values": {
                 "3,00,000": 77830,
                 "4,00,000": 85585,
@@ -1230,7 +1560,10 @@
               }
             },
             {
-              "age": "60",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "60",
               "values": {
                 "3,00,000": 83782,
                 "4,00,000": 92059,
@@ -1239,7 +1572,10 @@
               }
             },
             {
-              "age": "61-64",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "61-64",
               "values": {
                 "3,00,000": 90306,
                 "4,00,000": 99139,
@@ -1248,7 +1584,10 @@
               }
             },
             {
-              "age": "65",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "65",
               "values": {
                 "3,00,000": 97441,
                 "4,00,000": 112335,
@@ -1257,7 +1596,10 @@
               }
             },
             {
-              "age": "66-69",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "66-69",
               "values": {
                 "3,00,000": 105296,
                 "4,00,000": 127005,
@@ -1266,7 +1608,10 @@
               }
             },
             {
-              "age": "70",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "70",
               "values": {
                 "3,00,000": 116826,
                 "4,00,000": 143747,
@@ -1275,7 +1620,10 @@
               }
             },
             {
-              "age": "71-74",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "71-74",
               "values": {
                 "3,00,000": 129449,
                 "4,00,000": 161791,
@@ -1284,7 +1632,10 @@
               }
             },
             {
-              "age": "75",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "75",
               "values": {
                 "3,00,000": 144653,
                 "4,00,000": 180839,
@@ -1293,7 +1644,10 @@
               }
             },
             {
-              "age": "76-79",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "76-79",
               "values": {
                 "3,00,000": 161848,
                 "4,00,000": 202406,
@@ -1302,7 +1656,10 @@
               }
             },
             {
-              "age": "80",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "80",
               "values": {
                 "3,00,000": 177945,
                 "4,00,000": 222882,
@@ -1311,27 +1668,22 @@
               }
             },
             {
-              "age": "Above80",
+              "policy_term": 2,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "Above80",
               "values": {
                 "3,00,000": 196407,
                 "4,00,000": 246369,
                 "5,00,000": 282741,
                 "10,00,000": 374219
               }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "policy_term": 3,
-      "category": "A",
-      "policy_types": [
-        {
-          "type": "Individual",
-          "age_bands": [
+            },
             {
-              "age": "18-28",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "18-28",
               "values": {
                 "3,00,000": 33941,
                 "4,00,000": 37335,
@@ -1340,7 +1692,10 @@
               }
             },
             {
-              "age": "29",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "29",
               "values": {
                 "3,00,000": 35332,
                 "4,00,000": 38866,
@@ -1349,7 +1704,10 @@
               }
             },
             {
-              "age": "30",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "30",
               "values": {
                 "3,00,000": 36724,
                 "4,00,000": 40396,
@@ -1358,7 +1716,10 @@
               }
             },
             {
-              "age": "31-33",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "31-33",
               "values": {
                 "3,00,000": 38292,
                 "4,00,000": 42121,
@@ -1367,7 +1728,10 @@
               }
             },
             {
-              "age": "34",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "34",
               "values": {
                 "3,00,000": 39814,
                 "4,00,000": 43795,
@@ -1376,7 +1740,10 @@
               }
             },
             {
-              "age": "35",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "35",
               "values": {
                 "3,00,000": 41336,
                 "4,00,000": 45470,
@@ -1385,7 +1752,10 @@
               }
             },
             {
-              "age": "36-38",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "36-38",
               "values": {
                 "3,00,000": 43052,
                 "4,00,000": 47357,
@@ -1394,7 +1764,10 @@
               }
             },
             {
-              "age": "39",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "39",
               "values": {
                 "3,00,000": 44814,
                 "4,00,000": 49295,
@@ -1403,7 +1776,10 @@
               }
             },
             {
-              "age": "40",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "40",
               "values": {
                 "3,00,000": 46576,
                 "4,00,000": 51233,
@@ -1412,7 +1788,10 @@
               }
             },
             {
-              "age": "41-43",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "41-43",
               "values": {
                 "3,00,000": 48561,
                 "4,00,000": 53418,
@@ -1421,7 +1800,10 @@
               }
             },
             {
-              "age": "44",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "44",
               "values": {
                 "3,00,000": 50672,
                 "4,00,000": 55739,
@@ -1430,7 +1812,10 @@
               }
             },
             {
-              "age": "45",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "45",
               "values": {
                 "3,00,000": 52783,
                 "4,00,000": 58061,
@@ -1439,7 +1824,10 @@
               }
             },
             {
-              "age": "46-48",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "46-48",
               "values": {
                 "3,00,000": 55161,
                 "4,00,000": 60678,
@@ -1448,7 +1836,10 @@
               }
             },
             {
-              "age": "49",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "49",
               "values": {
                 "3,00,000": 57730,
                 "4,00,000": 63503,
@@ -1457,7 +1848,10 @@
               }
             },
             {
-              "age": "50",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "50",
               "values": {
                 "3,00,000": 60298,
                 "4,00,000": 66328,
@@ -1466,7 +1860,10 @@
               }
             },
             {
-              "age": "51-53",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "51-53",
               "values": {
                 "3,00,000": 63192,
                 "4,00,000": 69511,
@@ -1475,7 +1872,10 @@
               }
             },
             {
-              "age": "54",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "54",
               "values": {
                 "3,00,000": 66327,
                 "4,00,000": 72959,
@@ -1484,7 +1884,10 @@
               }
             },
             {
-              "age": "55",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "55",
               "values": {
                 "3,00,000": 69461,
                 "4,00,000": 76408,
@@ -1493,7 +1896,10 @@
               }
             },
             {
-              "age": "56-58",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "56-58",
               "values": {
                 "3,00,000": 72993,
                 "4,00,000": 80293,
@@ -1502,7 +1908,10 @@
               }
             },
             {
-              "age": "59",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "59",
               "values": {
                 "3,00,000": 76803,
                 "4,00,000": 84484,
@@ -1511,7 +1920,10 @@
               }
             },
             {
-              "age": "60",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "60",
               "values": {
                 "3,00,000": 80613,
                 "4,00,000": 88675,
@@ -1520,7 +1932,10 @@
               }
             },
             {
-              "age": "61-63",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "61-63",
               "values": {
                 "3,00,000": 84906,
                 "4,00,000": 93397,
@@ -1529,7 +1944,10 @@
               }
             },
             {
-              "age": "64",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "64",
               "values": {
                 "3,00,000": 89500,
                 "4,00,000": 101933,
@@ -1538,7 +1956,10 @@
               }
             },
             {
-              "age": "65",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "65",
               "values": {
                 "3,00,000": 94094,
                 "4,00,000": 110470,
@@ -1547,7 +1968,10 @@
               }
             },
             {
-              "age": "66-68",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "66-68",
               "values": {
                 "3,00,000": 99271,
                 "4,00,000": 120088,
@@ -1556,7 +1980,10 @@
               }
             },
             {
-              "age": "69",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "69",
               "values": {
                 "3,00,000": 107016,
                 "4,00,000": 131049,
@@ -1565,7 +1992,10 @@
               }
             },
             {
-              "age": "70",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "70",
               "values": {
                 "3,00,000": 114761,
                 "4,00,000": 142009,
@@ -1574,7 +2004,10 @@
               }
             },
             {
-              "age": "71-73",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "71-73",
               "values": {
                 "3,00,000": 123488,
                 "4,00,000": 154359,
@@ -1583,7 +2016,10 @@
               }
             },
             {
-              "age": "74",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "74",
               "values": {
                 "3,00,000": 133325,
                 "4,00,000": 166660,
@@ -1592,7 +2028,10 @@
               }
             },
             {
-              "age": "75",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "75",
               "values": {
                 "3,00,000": 143163,
                 "4,00,000": 178961,
@@ -1601,7 +2040,10 @@
               }
             },
             {
-              "age": "76-78",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "76-78",
               "values": {
                 "3,00,000": 154248,
                 "4,00,000": 192821,
@@ -1610,7 +2052,10 @@
               }
             },
             {
-              "age": "79",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "79",
               "values": {
                 "3,00,000": 165205,
                 "4,00,000": 206511,
@@ -1619,7 +2064,10 @@
               }
             },
             {
-              "age": "80",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "80",
               "values": {
                 "3,00,000": 176161,
                 "4,00,000": 220200,
@@ -1628,21 +2076,22 @@
               }
             },
             {
-              "age": "Above80",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Individual",
+              "age_band": "Above80",
               "values": {
                 "3,00,000": 188506,
                 "4,00,000": 235625,
                 "5,00,000": 270979,
                 "10,00,000": 352272
               }
-            }
-          ]
-        },
-        {
-          "type": "Floater",
-          "age_bands": [
+            },
             {
-              "age": "18-28",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "18-28",
               "values": {
                 "3,00,000": 47517,
                 "4,00,000": 52269,
@@ -1651,7 +2100,10 @@
               }
             },
             {
-              "age": "29",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "29",
               "values": {
                 "3,00,000": 49465,
                 "4,00,000": 54412,
@@ -1660,7 +2112,10 @@
               }
             },
             {
-              "age": "30",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "30",
               "values": {
                 "3,00,000": 51413,
                 "4,00,000": 56555,
@@ -1669,7 +2124,10 @@
               }
             },
             {
-              "age": "31-33",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "31-33",
               "values": {
                 "3,00,000": 53608,
                 "4,00,000": 58969,
@@ -1678,7 +2136,10 @@
               }
             },
             {
-              "age": "34",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "34",
               "values": {
                 "3,00,000": 55740,
                 "4,00,000": 61313,
@@ -1687,7 +2148,10 @@
               }
             },
             {
-              "age": "35",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "35",
               "values": {
                 "3,00,000": 57871,
                 "4,00,000": 63658,
@@ -1696,7 +2160,10 @@
               }
             },
             {
-              "age": "36-38",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "36-38",
               "values": {
                 "3,00,000": 60272,
                 "4,00,000": 66299,
@@ -1705,7 +2172,10 @@
               }
             },
             {
-              "age": "39",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "39",
               "values": {
                 "3,00,000": 62739,
                 "4,00,000": 69013,
@@ -1714,7 +2184,10 @@
               }
             },
             {
-              "age": "40",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "40",
               "values": {
                 "3,00,000": 65206,
                 "4,00,000": 71727,
@@ -1723,7 +2196,10 @@
               }
             },
             {
-              "age": "41-43",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "41-43",
               "values": {
                 "3,00,000": 67986,
                 "4,00,000": 74785,
@@ -1732,7 +2208,10 @@
               }
             },
             {
-              "age": "44",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "44",
               "values": {
                 "3,00,000": 70941,
                 "4,00,000": 78035,
@@ -1741,7 +2220,10 @@
               }
             },
             {
-              "age": "45",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "45",
               "values": {
                 "3,00,000": 73896,
                 "4,00,000": 81286,
@@ -1750,7 +2232,10 @@
               }
             },
             {
-              "age": "46-48",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "46-48",
               "values": {
                 "3,00,000": 77226,
                 "4,00,000": 84949,
@@ -1759,7 +2244,10 @@
               }
             },
             {
-              "age": "49",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "49",
               "values": {
                 "3,00,000": 80822,
                 "4,00,000": 88904,
@@ -1768,7 +2256,10 @@
               }
             },
             {
-              "age": "50",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "50",
               "values": {
                 "3,00,000": 84417,
                 "4,00,000": 92859,
@@ -1777,7 +2268,10 @@
               }
             },
             {
-              "age": "51-53",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "51-53",
               "values": {
                 "3,00,000": 88469,
                 "4,00,000": 97316,
@@ -1786,7 +2280,10 @@
               }
             },
             {
-              "age": "54",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "54",
               "values": {
                 "3,00,000": 92857,
                 "4,00,000": 102143,
@@ -1795,7 +2292,10 @@
               }
             },
             {
-              "age": "55",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "55",
               "values": {
                 "3,00,000": 97246,
                 "4,00,000": 106971,
@@ -1804,7 +2304,10 @@
               }
             },
             {
-              "age": "56-58",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "56-58",
               "values": {
                 "3,00,000": 102191,
                 "4,00,000": 112410,
@@ -1813,7 +2316,10 @@
               }
             },
             {
-              "age": "59",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "59",
               "values": {
                 "3,00,000": 107525,
                 "4,00,000": 118277,
@@ -1822,7 +2328,10 @@
               }
             },
             {
-              "age": "60",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "60",
               "values": {
                 "3,00,000": 112859,
                 "4,00,000": 124145,
@@ -1831,7 +2340,10 @@
               }
             },
             {
-              "age": "61-63",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "61-63",
               "values": {
                 "3,00,000": 118869,
                 "4,00,000": 130756,
@@ -1840,7 +2352,10 @@
               }
             },
             {
-              "age": "64",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "64",
               "values": {
                 "3,00,000": 125300,
                 "4,00,000": 142365,
@@ -1849,7 +2364,10 @@
               }
             },
             {
-              "age": "65",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "65",
               "values": {
                 "3,00,000": 131732,
                 "4,00,000": 153974,
@@ -1858,7 +2376,10 @@
               }
             },
             {
-              "age": "66-68",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "66-68",
               "values": {
                 "3,00,000": 138979,
                 "4,00,000": 167055,
@@ -1867,7 +2388,10 @@
               }
             },
             {
-              "age": "69",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "69",
               "values": {
                 "3,00,000": 149414,
                 "4,00,000": 182231,
@@ -1876,7 +2400,10 @@
               }
             },
             {
-              "age": "70",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "70",
               "values": {
                 "3,00,000": 159849,
                 "4,00,000": 197408,
@@ -1885,7 +2412,10 @@
               }
             },
             {
-              "age": "71-73",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "71-73",
               "values": {
                 "3,00,000": 171606,
                 "4,00,000": 214508,
@@ -1894,7 +2424,10 @@
               }
             },
             {
-              "age": "74",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "74",
               "values": {
                 "3,00,000": 185242,
                 "4,00,000": 231556,
@@ -1903,7 +2436,10 @@
               }
             },
             {
-              "age": "75",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "75",
               "values": {
                 "3,00,000": 198879,
                 "4,00,000": 248605,
@@ -1912,7 +2448,10 @@
               }
             },
             {
-              "age": "76-78",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "76-78",
               "values": {
                 "3,00,000": 214244,
                 "4,00,000": 267815,
@@ -1921,7 +2460,10 @@
               }
             },
             {
-              "age": "79",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "79",
               "values": {
                 "3,00,000": 229416,
                 "4,00,000": 286781,
@@ -1930,7 +2472,10 @@
               }
             },
             {
-              "age": "80",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "80",
               "values": {
                 "3,00,000": 244588,
                 "4,00,000": 305747,
@@ -1939,27 +2484,22 @@
               }
             },
             {
-              "age": "Above80",
+              "policy_term": 3,
+              "category": "A",
+              "plan_type": "Floater",
+              "age_band": "Above80",
               "values": {
                 "3,00,000": 261683,
                 "4,00,000": 327117,
                 "5,00,000": 376179,
                 "10,00,000": 489038
               }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "policy_term": 3,
-      "category": "B",
-      "policy_types": [
-        {
-          "type": "Individual Policy",
-          "age_bands": [
+            },
             {
-              "age": "18-28",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "18-28",
               "values": {
                 "3,00,000": 37712,
                 "4,00,000": 41483,
@@ -1968,7 +2508,10 @@
               }
             },
             {
-              "age": "29",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "29",
               "values": {
                 "3,00,000": 39258,
                 "4,00,000": 43184,
@@ -1977,7 +2520,10 @@
               }
             },
             {
-              "age": "30",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "30",
               "values": {
                 "3,00,000": 40804,
                 "4,00,000": 44885,
@@ -1986,7 +2532,10 @@
               }
             },
             {
-              "age": "31-33",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "31-33",
               "values": {
                 "3,00,000": 42546,
                 "4,00,000": 46801,
@@ -1995,7 +2544,10 @@
               }
             },
             {
-              "age": "34",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "34",
               "values": {
                 "3,00,000": 44238,
                 "4,00,000": 48661,
@@ -2004,7 +2556,10 @@
               }
             },
             {
-              "age": "35",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "35",
               "values": {
                 "3,00,000": 45929,
                 "4,00,000": 50522,
@@ -2013,7 +2568,10 @@
               }
             },
             {
-              "age": "36-38",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "36-38",
               "values": {
                 "3,00,000": 47835,
                 "4,00,000": 52619,
@@ -2022,7 +2580,10 @@
               }
             },
             {
-              "age": "39",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "39",
               "values": {
                 "3,00,000": 49793,
                 "4,00,000": 54772,
@@ -2031,7 +2592,10 @@
               }
             },
             {
-              "age": "40",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "40",
               "values": {
                 "3,00,000": 51751,
                 "4,00,000": 56926,
@@ -2040,7 +2604,10 @@
               }
             },
             {
-              "age": "41-43",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "41-43",
               "values": {
                 "3,00,000": 53957,
                 "4,00,000": 59353,
@@ -2049,7 +2616,10 @@
               }
             },
             {
-              "age": "44",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "44",
               "values": {
                 "3,00,000": 56302,
                 "4,00,000": 61933,
@@ -2058,7 +2628,10 @@
               }
             },
             {
-              "age": "45",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "45",
               "values": {
                 "3,00,000": 58648,
                 "4,00,000": 64513,
@@ -2067,7 +2640,10 @@
               }
             },
             {
-              "age": "46-48",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "46-48",
               "values": {
                 "3,00,000": 61290,
                 "4,00,000": 67420,
@@ -2076,7 +2652,10 @@
               }
             },
             {
-              "age": "49",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "49",
               "values": {
                 "3,00,000": 64144,
                 "4,00,000": 70559,
@@ -2085,7 +2664,10 @@
               }
             },
             {
-              "age": "50",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "50",
               "values": {
                 "3,00,000": 66998,
                 "4,00,000": 73698,
@@ -2094,7 +2676,10 @@
               }
             },
             {
-              "age": "51-53",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "51-53",
               "values": {
                 "3,00,000": 70213,
                 "4,00,000": 77235,
@@ -2103,7 +2688,10 @@
               }
             },
             {
-              "age": "54",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "54",
               "values": {
                 "3,00,000": 73696,
                 "4,00,000": 81066,
@@ -2112,7 +2700,10 @@
               }
             },
             {
-              "age": "55",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "55",
               "values": {
                 "3,00,000": 77179,
                 "4,00,000": 84897,
@@ -2121,7 +2712,10 @@
               }
             },
             {
-              "age": "56-58",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "56-58",
               "values": {
                 "3,00,000": 81104,
                 "4,00,000": 89214,
@@ -2130,7 +2724,10 @@
               }
             },
             {
-              "age": "59",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "59",
               "values": {
                 "3,00,000": 87111,
                 "4,00,000": 100615,
@@ -2139,7 +2736,10 @@
               }
             },
             {
-              "age": "60",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "60",
               "values": {
                 "3,00,000": 93118,
                 "4,00,000": 112015,
@@ -2148,7 +2748,10 @@
               }
             },
             {
-              "age": "61-63",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "61-63",
               "values": {
                 "3,00,000": 99886,
                 "4,00,000": 124861,
@@ -2157,7 +2760,10 @@
               }
             },
             {
-              "age": "64",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "64",
               "values": {
                 "3,00,000": 110155,
                 "4,00,000": 137694,
@@ -2166,7 +2772,10 @@
               }
             },
             {
-              "age": "65",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "65",
               "values": {
                 "3,00,000": 120423,
                 "4,00,000": 150528,
@@ -2175,7 +2784,10 @@
               }
             },
             {
-              "age": "66-68",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "66-68",
               "values": {
                 "3,00,000": 131993,
                 "4,00,000": 164988,
@@ -2184,7 +2796,10 @@
               }
             },
             {
-              "age": "69",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "69",
               "values": {
                 "3,00,000": 141121,
                 "4,00,000": 176396,
@@ -2193,7 +2808,10 @@
               }
             },
             {
-              "age": "70",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "70",
               "values": {
                 "3,00,000": 150249,
                 "4,00,000": 187805,
@@ -2202,7 +2820,10 @@
               }
             },
             {
-              "age": "71-73",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "71-73",
               "values": {
                 "3,00,000": 160534,
                 "4,00,000": 200660,
@@ -2211,7 +2832,10 @@
               }
             },
             {
-              "age": "74",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "74",
               "values": {
                 "3,00,000": 175364,
                 "4,00,000": 219200,
@@ -2220,7 +2844,10 @@
               }
             },
             {
-              "age": "75",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "75",
               "values": {
                 "3,00,000": 190194,
                 "4,00,000": 237740,
@@ -2229,7 +2856,10 @@
               }
             },
             {
-              "age": "76-78",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "76-78",
               "values": {
                 "3,00,000": 206904,
                 "4,00,000": 258630,
@@ -2238,7 +2868,10 @@
               }
             },
             {
-              "age": "79",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "79",
               "values": {
                 "3,00,000": 220594,
                 "4,00,000": 275741,
@@ -2247,7 +2880,10 @@
               }
             },
             {
-              "age": "80",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "80",
               "values": {
                 "3,00,000": 234283,
                 "4,00,000": 292852,
@@ -2256,21 +2892,22 @@
               }
             },
             {
-              "age": "Above80",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Individual",
+              "age_band": "Above80",
               "values": {
                 "3,00,000": 249708,
                 "4,00,000": 312132,
                 "5,00,000": 358946,
                 "10,00,000": 466644
               }
-            }
-          ]
         },
         {
-          "type": "Floater Policy",
-          "age_bands": [
-            {
-              "age": "18-28",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "18-28",
               "values": {
                 "3,00,000": 52797,
                 "4,00,000": 58077,
@@ -2279,7 +2916,10 @@
               }
             },
             {
-              "age": "29",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "29",
               "values": {
                 "3,00,000": 54962,
                 "4,00,000": 60458,
@@ -2288,7 +2928,10 @@
               }
             },
             {
-              "age": "30",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "30",
               "values": {
                 "3,00,000": 57126,
                 "4,00,000": 62839,
@@ -2297,7 +2940,10 @@
               }
             },
             {
-              "age": "31-33",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "31-33",
               "values": {
                 "3,00,000": 59565,
                 "4,00,000": 65521,
@@ -2306,7 +2952,10 @@
               }
             },
             {
-              "age": "34",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "34",
               "values": {
                 "3,00,000": 61933,
                 "4,00,000": 68126,
@@ -2315,7 +2964,10 @@
               }
             },
             {
-              "age": "35",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "35",
               "values": {
                 "3,00,000": 64301,
                 "4,00,000": 70731,
@@ -2324,7 +2976,10 @@
               }
             },
             {
-              "age": "36-38",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "36-38",
               "values": {
                 "3,00,000": 66969,
                 "4,00,000": 73666,
@@ -2333,7 +2988,10 @@
               }
             },
             {
-              "age": "39",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "39",
               "values": {
                 "3,00,000": 69710,
                 "4,00,000": 76681,
@@ -2342,7 +3000,10 @@
               }
             },
             {
-              "age": "40",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "40",
               "values": {
                 "3,00,000": 72451,
                 "4,00,000": 79697,
@@ -2351,7 +3012,10 @@
               }
             },
             {
-              "age": "41-43",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "41-43",
               "values": {
                 "3,00,000": 75540,
                 "4,00,000": 83094,
@@ -2360,7 +3024,10 @@
               }
             },
             {
-              "age": "44",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "44",
               "values": {
                 "3,00,000": 78823,
                 "4,00,000": 86706,
@@ -2369,7 +3036,10 @@
               }
             },
             {
-              "age": "45",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "45",
               "values": {
                 "3,00,000": 82107,
                 "4,00,000": 90318,
@@ -2378,7 +3048,10 @@
               }
             },
             {
-              "age": "46-48",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "46-48",
               "values": {
                 "3,00,000": 85807,
                 "4,00,000": 94387,
@@ -2387,7 +3060,10 @@
               }
             },
             {
-              "age": "49",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "49",
               "values": {
                 "3,00,000": 89802,
                 "4,00,000": 98782,
@@ -2396,7 +3072,10 @@
               }
             },
             {
-              "age": "50",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "50",
               "values": {
                 "3,00,000": 93797,
                 "4,00,000": 103177,
@@ -2405,7 +3084,10 @@
               }
             },
             {
-              "age": "51-53",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "51-53",
               "values": {
                 "3,00,000": 98299,
                 "4,00,000": 108129,
@@ -2414,7 +3096,10 @@
               }
             },
             {
-              "age": "54",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "54",
               "values": {
                 "3,00,000": 103175,
                 "4,00,000": 113492,
@@ -2423,7 +3108,10 @@
               }
             },
             {
-              "age": "55",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "55",
               "values": {
                 "3,00,000": 108051,
                 "4,00,000": 118856,
@@ -2432,7 +3120,10 @@
               }
             },
             {
-              "age": "56-58",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "56-58",
               "values": {
                 "3,00,000": 113545,
                 "4,00,000": 124900,
@@ -2441,7 +3132,10 @@
               }
             },
             {
-              "age": "59",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "59",
               "values": {
                 "3,00,000": 121526,
                 "4,00,000": 140326,
@@ -2450,7 +3144,10 @@
               }
             },
             {
-              "age": "60",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "60",
               "values": {
                 "3,00,000": 129508,
                 "4,00,000": 155751,
@@ -2459,7 +3156,10 @@
               }
             },
             {
-              "age": "61-63",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "61-63",
               "values": {
                 "3,00,000": 138500,
                 "4,00,000": 173132,
@@ -2468,7 +3168,10 @@
               }
             },
             {
-              "age": "64",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "64",
               "values": {
                 "3,00,000": 152736,
                 "4,00,000": 190922,
@@ -2477,7 +3180,10 @@
               }
             },
             {
-              "age": "65",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "65",
               "values": {
                 "3,00,000": 166971,
                 "4,00,000": 208712,
@@ -2486,7 +3192,10 @@
               }
             },
             {
-              "age": "66-68",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "66-68",
               "values": {
                 "3,00,000": 183011,
                 "4,00,000": 228757,
@@ -2495,7 +3204,10 @@
               }
             },
             {
-              "age": "69",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "69",
               "values": {
                 "3,00,000": 195667,
                 "4,00,000": 244577,
@@ -2504,7 +3216,10 @@
               }
             },
             {
-              "age": "70",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "70",
               "values": {
                 "3,00,000": 208323,
                 "4,00,000": 260397,
@@ -2513,7 +3228,10 @@
               }
             },
             {
-              "age": "71-73",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "71-73",
               "values": {
                 "3,00,000": 222583,
                 "4,00,000": 278222,
@@ -2522,7 +3240,10 @@
               }
             },
             {
-              "age": "74",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "74",
               "values": {
                 "3,00,000": 243146,
                 "4,00,000": 303928,
@@ -2531,7 +3252,10 @@
               }
             },
             {
-              "age": "75",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "75",
               "values": {
                 "3,00,000": 263710,
                 "4,00,000": 329634,
@@ -2540,7 +3264,10 @@
               }
             },
             {
-              "age": "76-78",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "76-78",
               "values": {
                 "3,00,000": 286880,
                 "4,00,000": 358599,
@@ -2549,7 +3276,10 @@
               }
             },
             {
-              "age": "79",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "79",
               "values": {
                 "3,00,000": 305859,
                 "4,00,000": 382327,
@@ -2558,7 +3288,10 @@
               }
             },
             {
-              "age": "80",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "80",
               "values": {
                 "3,00,000": 324838,
                 "4,00,000": 406054,
@@ -2567,7 +3300,10 @@
               }
             },
             {
-              "age": "Above80",
+              "policy_term": 3,
+              "category": "B",
+              "plan_type": "Floater",
+              "age_band": "Above80",
               "values": {
                 "3,00,000": 346223,
                 "4,00,000": 432789,
@@ -2575,10 +3311,6 @@
                 "10,00,000": 647033
               }
             }
-          ]
-        }
-      ]
-    }
   ]        
 
 
@@ -3497,3 +4229,586 @@
         }
 ]
  
+
+const YoungStar = [
+  {
+    "plan_year": 1,
+    "plan": "Silver 3,00,000",
+    "premium_details": [
+      {
+        "plan_type": "1A",
+        "age_band": "18-30",
+        "values": {
+        "3,00,000": 3841
+        }
+      },
+      {
+        "plan_type": "1A",
+        "age_band": "31-35",
+        "values": {
+        "3,00,000": 4215
+        }
+      },
+      {
+        "plan_type": "1A",
+        "age_band": "36-40",
+        "values": {
+        "3,00,000": 4876
+        }
+      },
+      {
+        "plan_type": "1A",
+        "age_band": "41-45",
+        "values": {
+        "3,00,000": 5836
+        }
+      },
+      {
+        "plan_type": "1A",
+        "age_band": "46-50",
+        "values": {
+        "3,00,000": 6946
+        }
+      },
+      {
+        "plan_type": "1A",
+        "age_band": "51-55",
+        "values": {
+        "3,00,000": 8648
+        }
+      },
+      {
+        "plan_type": "1A",
+        "age_band": "51-60",
+        "values": {
+        "3,00,000": 10316
+        }
+      },
+      {
+        "plan_type": "1A",
+        "age_band": "61-65",
+        "values": {
+        "3,00,000": 12817
+        }
+      },
+      {
+        "plan_type": "1A",
+        "age_band": "Above 65",
+        "values": {
+        "3,00,000": 16572
+        }
+      },
+    ]
+  },
+  {
+    "plan_year": 1,
+    "plan": "Silver 5,00,000",
+    "premium_details": [
+      {
+        "plan_type": "1A",
+        "age_band": "18-30",
+        "values": {
+          "5,00,000": 5238
+        }
+      },
+      {
+        "plan_type": "1A",
+        "age_band": "31-35",
+        "values": {
+          "5,00,000": 5762
+        }
+      },
+      {
+        "plan_type": "1A",
+        "age_band": "36-40",
+        "values": {
+          "5,00,000": 6587
+        }
+      },
+      {
+        "plan_type": "1A",
+        "age_band": "41-45",
+        "values": {
+          "5,00,000": 8044
+        }
+      },
+      {
+        "plan_type": "1A",
+        "age_band": "46-50",
+        "values": {
+          "5,00,000": 9597
+        }
+      },
+      {
+        "plan_type": "1A",
+        "age_band": "51-55",
+        "values": {
+          "5,00,000": 11983
+        }
+      },
+      {
+        "plan_type": "1A",
+        "age_band": "56-60",
+        "values": {
+          "5,00,000": 14318
+        }
+      },
+      {
+        "plan_type": "1A",
+        "age_band": "61-65",
+        "values": {
+          "5,00,000": 17819
+        }
+      },
+      {
+        "plan_type": "1A",
+        "age_band": "Above 65",
+        "values": {
+          "5,00,000": 23069
+        }
+      },
+      {
+        "plan_type": "1A+1C",
+        "age_band": "18-30",
+        "values": {
+          "5,00,000": 8058
+        }
+      },
+      {
+        "plan_type": "1A+1C",
+        "age_band": "31-35",
+        "values": {
+          "5,00,000": 8848
+        }
+      },
+      {
+        "plan_type": "1A+1C",
+        "age_band": "36-40",
+        "values": {
+          "5,00,000": 9152
+        }
+      },
+      {
+        "plan_type": "1A+1C",
+        "age_band": "41-45",
+        "values": {
+          "5,00,000": 11178
+        }
+      },
+      {
+        "plan_type": "1A+1C",
+        "age_band": "46-50",
+        "values": {
+          "5,00,000": 12834
+        }
+      },
+      {
+        "plan_type": "1A+1C",
+        "age_band": "51-55",
+        "values": {
+          "5,00,000": 15249
+        }
+      },
+      {
+        "plan_type": "1A+1C",
+        "age_band": "56-60",
+        "values": {
+          "5,00,000": 17584
+        }
+      },
+      {
+        "plan_type": "1A+1C",
+        "age_band": "61-65",
+        "values": {
+          "5,00,000": 21865
+        }
+      },
+      {
+        "plan_type": "1A+1C",
+        "age_band": "Above 65",
+        "values": {
+          "5,00,000": 28335
+        }
+      },
+      {
+        "plan_type": "1A+2C",
+        "age_band": "18-30",
+        "values": {
+          "5,00,000": 8723
+        }
+      },
+      {
+        "plan_type": "1A+2C",
+        "age_band": "31-35",
+        "values": {
+          "5,00,000": 10240
+        }
+      },
+      {
+        "plan_type": "1A+2C",
+        "age_band": "36-40",
+        "values": {
+          "5,00,000": 11506
+        }
+      },
+      {
+        "plan_type": "1A+2C",
+        "age_band": "41-45",
+        "values": {
+          "5,00,000": 12972
+        }
+      },
+      {
+        "plan_type": "1A+2C",
+        "age_band": "46-50",
+        "values": {
+          "5,00,000": 14697
+        }
+      },
+      {
+        "plan_type": "1A+2C",
+        "age_band": "51-55",
+        "values": {
+          "5,00,000": 17124
+        }
+      },
+      {
+        "plan_type": "1A+2C",
+        "age_band": "56-60",
+        "values": {
+          "5,00,000": 19458
+        }
+      },
+      {
+        "plan_type": "1A+2C",
+        "age_band": "61-65",
+        "values": {
+          "5,00,000": 22960
+        }
+      },
+      {
+        "plan_type": "1A+2C",
+        "age_band": "Above 65",
+        "values": {
+          "5,00,000": 28210
+        }
+      },
+      {
+        "plan_type": "1A+3C",
+        "age_band": "18-30",
+        "values": {
+          "5,00,000": 11837
+        }
+      },
+      {
+        "plan_type": "1A+3C",
+        "age_band": "31-35",
+        "values": {
+          "5,00,000": 12463
+        }
+      },
+      {
+        "plan_type": "1A+3C",
+        "age_band": "36-40",
+        "values": {
+          "5,00,000": 13940
+        }
+      },
+      {
+        "plan_type": "1A+3C",
+        "age_band": "41-45",
+        "values": {
+          "5,00,000": 16320
+        }
+      },
+      {
+        "plan_type": "1A+3C",
+        "age_band": "46-50",
+        "values": {
+          "5,00,000": 17175
+        }
+      },
+      {
+        "plan_type": "1A+3C",
+        "age_band": "51-55",
+        "values": {
+          "5,00,000": 19625
+        }
+      },
+      {
+        "plan_type": "1A+3C",
+        "age_band": "56-60",
+        "values": {
+          "5,00,000": 21959
+        }
+      },
+      {
+        "plan_type": "1A+3C",
+        "age_band": "61-65",
+        "values": {
+          "5,00,000": 26461
+        }
+      },
+      {
+        "plan_type": "1A+3C",
+        "age_band": "Above 65",
+        "values": {
+          "5,00,000": 30711
+        }
+      },
+      {
+        "plan_type": "2A",
+        "age_band": "18-30",
+        "values": {
+          "5,00,000": 6297
+        }
+      },
+      {
+        "plan_type": "2A",
+        "age_band": "31-35",
+        "values": {
+          "5,00,000": 9137
+        }
+      },
+      {
+        "plan_type": "2A",
+        "age_band": "36-40",
+        "values": {
+          "5,00,000": 10819
+        }
+      },
+      {
+        "plan_type": "2A",
+        "age_band": "41-45",
+        "values": {
+          "5,00,000": 12848
+        }
+      },
+      {
+        "plan_type": "2A",
+        "age_band": "46-50",
+        "values": {
+          "5,00,000": 15298
+        }
+      },
+      {
+        "plan_type": "2A",
+        "age_band": "51-55",
+        "values": {
+          "5,00,000": 19113
+        }
+      },
+      {
+        "plan_type": "2A",
+        "age_band": "56-60",
+        "values": {
+          "5,00,000": 22845
+        }
+      },
+      {
+        "plan_type": "2A",
+        "age_band": "61-65",
+        "values": {
+          "5,00,000": 28445
+        }
+      },
+      {
+        "plan_type": "2A",
+        "age_band": "Above 65",
+        "values": {
+          "5,00,000": 38846
+        }
+      },
+      {
+        "plan_type": "2A+1C",
+        "age_band": "18-30",
+        "values": {
+          "5,00,000": 11004
+        }
+      },
+      {
+        "plan_type": "2A+1C",
+        "age_band": "31-35",
+        "values": {
+          "5,00,000": 11903
+        }
+      },
+      {
+        "plan_type": "2A+1C",
+        "age_band": "36-40",
+        "values": {
+          "5,00,000": 13559
+        }
+      },
+      {
+        "plan_type": "2A+1C",
+        "age_band": "41-45",
+        "values": {
+          "5,00,000": 15813
+        }
+      },
+      {
+        "plan_type": "2A+1C",
+        "age_band": "46-50",
+        "values": {
+          "5,00,000": 18406
+        }
+      },
+      {
+        "plan_type": "2A+1C",
+        "age_band": "51-55",
+        "values": {
+          "5,00,000": 22253
+        }
+      },
+      {
+        "plan_type": "2A+1C",
+        "age_band": "56-60",
+        "values": {
+          "5,00,000": 25984
+        }
+      },
+      {
+        "plan_type": "2A+1C",
+        "age_band": "61-65",
+        "values": {
+          "5,00,000": 31585
+        }
+      },
+      {
+        "plan_type": "2A+1C",
+        "age_band": "Above 65",
+        "values": {
+          "5,00,000": 39986
+        }
+      },
+      {
+        "plan_type": "2A+2C",
+        "age_band": "18-30",
+        "values": {
+          "5,00,000": 12662
+        }
+      },
+      {
+        "plan_type": "2A+2C",
+        "age_band": "31-35",
+        "values": {
+          "5,00,000": 13547
+        }
+      },
+      {
+        "plan_type": "2A+2C",
+        "age_band": "36-40",
+        "values": {
+          "5,00,000": 15312
+        }
+      },
+      {
+        "plan_type": "2A+2C",
+        "age_band": "41-45",
+        "values": {
+          "5,00,000": 17812
+        }
+      },
+      {
+        "plan_type": "2A+2C",
+        "age_band": "46-50",
+        "values": {
+          "5,00,000": 20269
+        }
+      },
+      {
+        "plan_type": "2A+2C",
+        "age_band": "51-55",
+        "values": {
+          "5,00,000": 24127
+        }
+      },
+      {
+        "plan_type": "2A+2C",
+        "age_band": "56-60",
+        "values": {
+          "5,00,000": 27859
+        }
+      },
+      {
+        "plan_type": "2A+2C",
+        "age_band": "61-65",
+        "values": {
+          "5,00,000": 33459
+        }
+      },
+      {
+        "plan_type": "2A+2C",
+        "age_band": "Above 65",
+        "values": {
+          "5,00,000": 41860
+        }
+      },
+      {
+        "plan_type": "2A+3C",
+        "age_band": "18-30",
+        "values": {
+          "5,00,000": 14841
+        }
+      },
+      {
+        "plan_type": "2A+3C",
+        "age_band": "31-35",
+        "values": {
+          "5,00,000": 15744
+        }
+      },
+      {
+        "plan_type": "2A+3C",
+        "age_band": "36-40",
+        "values": {
+          "5,00,000": 17658
+        }
+      },
+      {
+        "plan_type": "2A+3C",
+        "age_band": "41-45",
+        "values": {
+          "5,00,000": 20004
+        }
+      },
+      {
+        "plan_type": "2A+3C",
+        "age_band": "46-50",
+        "values": {
+          "5,00,000": 22747
+        }
+      },
+      {
+        "plan_type": "2A+3C",
+        "age_band": "51-55",
+        "values": {
+          "5,00,000": 26053
+        }
+      },
+      {
+        "plan_type": "2A+3C",
+        "age_band": "56-60",
+        "values": {
+          "5,00,000": 30360
+        }
+      },
+      {
+        "plan_type": "2A+3C",
+        "age_band": "61-65",
+        "values": {
+          "5,00,000": 35961
+        }
+      },
+      {
+        "plan_type": "2A+3C",
+        "age_band": "Above 65",
+        "values": {
+          "5,00,000": 44361
+        }
+      }
+    ]
+  },
+  
+]
